@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /dashboard/
+Disallow: /cart/
+Disallow: /checkout/
+
+# Allow everything else
+Allow: /
+
+# Sitemap declaration (update your real sitemap URL if dynamic)
+Sitemap: https://redrose.com.bd/sitemap.xml
